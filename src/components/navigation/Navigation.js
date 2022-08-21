@@ -5,7 +5,7 @@ const Navigation = () => {
   
     <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fixed top</a>
+      top navigation
     </div>
   </nav>
     
