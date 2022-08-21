@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Navigation = () => {
   return (
   
-    <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
+    <nav className  ="navbar navbar-light bg-light">
+    <div className  ="container-fluid">
       top navigation
     </div>
   </nav>
