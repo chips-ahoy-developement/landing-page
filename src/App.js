@@ -1,6 +1,6 @@
 import "./App.scss";
 import Form from "./components/form/Form";
-import Jumbotron from "./components/jumbtron/Jumbotron";
+import Jumbotron from "./components/jumbotron/Jumbotron";
 import Navigation from "./components/navigation/Navigation";
 
 function App() {
@@ -33,7 +33,7 @@ function App() {
         <div className="row">
           <div className="col">
 
-            <div className='mt-4 p-5 bg-primary text-white rounded'>
+            <div className='mt-4 p-5 bg-secondary text-white rounded'>
               <Form></Form>
             </div>
           </div>

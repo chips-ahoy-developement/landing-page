@@ -4,13 +4,13 @@ const Form = () => {
   return (
     <form>
     <div className="mb-3">
-        <label for="exampleInputEmail1" className="form-label">
+        <label for="name" className="form-label text-start">
           Name
         </label>
         <input
           type="name"
           className="form-control"
-          id="John Doe"
+          id="name"
           aria-describedby="name"
         />
         <div id="emailHelp" className="form-text">
@@ -18,7 +18,7 @@ const Form = () => {
         </div>
       </div>
       <div className="mb-3">
-        <label for="exampleInputEmail1" className="form-label">
+        <label for="exampleInputEmail1" className="form-label text-start">
           Email address
         </label>
         <input
@@ -32,7 +32,7 @@ const Form = () => {
         </div>
       </div>
       <div className="mb-3">
-        <label for="exampleInputPassword1" className="form-label">
+        <label for="exampleInputPassword1" className="form-label text-start">
           Phone Number
         </label>
         <input
