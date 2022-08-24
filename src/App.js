@@ -22,7 +22,7 @@ function App() {
           </div>
         </Jumbotron>
         <div className="row mb-5">
-          <div className="col-9 text-start mt-5 mb-5 promising-subheading">
+          <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 promising-subheading">
             <h2>Promising Subheading</h2>
             <p>
               supporting copy lorem Ipsum, Lorem ipsum dolor sit amet,
@@ -31,7 +31,7 @@ function App() {
             </p>
           </div>
 
-          <div className="col-4 mt-5 mb-5">
+          <div className="col-sm-12 col-md-4 mt-5 mb-5">
             <p className="subheader">
               DIGITAL MARKETING <span className="underline mt-3 mb-3"></span>
             </p>
@@ -47,7 +47,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col-4 mt-5 ">
+          <div className="col-sm-12 col-md-4 mt-5 ">
             <p className="subheader">
               DESIGN / UI / UX <span className="underline mt-3 mb-3"></span>
             </p>
@@ -63,7 +63,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col-4 mt-5 ">
+          <div className="col-sm-12 col-md-4 mt-5 ">
             <p className="subheader">
               ENGINEERING <span className="underline mt-3 mb-3"></span>
             </p>

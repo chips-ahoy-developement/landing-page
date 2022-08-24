@@ -1,16 +1,17 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import './carousel.module.scss'
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 function CarouselSlider() {
   return (
     <Carousel>
-    <div className="container mt-5">
+    <div className="container mt-5 bg-light p-5 carousel-wrapper">
       <div className="row">
-        <div className="col-5">
+        <div className="col-sm-12 col-md-5 mb-5">
           <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-7 d-flex align-items-center">
+        <div className="col-sm-12 col-md-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
             <p className='p-3'>
@@ -32,10 +33,10 @@ function CarouselSlider() {
 
     <div className="container">
       <div className="row">
-        <div className="col-5">
+        <div className="col-sm-12 col-md-5 mb-5">
           <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-7 d-flex align-items-center">
+        <div className="col-sm-12 col-md-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
             <p className='p-3'>
@@ -57,10 +58,10 @@ function CarouselSlider() {
 
     <div className="container">
       <div className="row">
-        <div className="col-5">
+        <div className="col-sm-12 col-md-5 mb-5">
           <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-7 d-flex align-items-center">
+        <div className="col-sm-12 col-md-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
             <p className='p-3'>
