@@ -1,18 +1,19 @@
 import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import './carousel.module.scss'
 function CarouselSlider() {
   return (
     <Carousel>
     <div className="container mt-5">
       <div className="row">
-        <div className="col-6">
-          <img src="#" width={354} height={354} />
+        <div className="col-5">
+          <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-6 d-flex align-items-center">
+        <div className="col-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
-            <p>
+            <p className='p-3'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Quis auctor elit sed vulputate mi sit amet mauris
@@ -20,9 +21,10 @@ function CarouselSlider() {
               morbi. Nibh cras pulvinar mattis nunc sed blandit. Cursus
               eget nunc scelerisque viverra mauris in aliquam. Id
               faucibus nisl tincidunt eget nullam. Bibendum neque
-              egestas c
+              egestas
             </p>
             <p className="quoteMark text-end">"</p>
+            <small className='text-black-50'>John Doe | CEO<br />agency of the year</small>
           </div>
         </div>
       </div>
@@ -30,13 +32,13 @@ function CarouselSlider() {
 
     <div className="container">
       <div className="row">
-        <div className="col-6">
-          <img src="#" width={354} height={354} />
+        <div className="col-5">
+          <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-6 d-flex align-items-center">
+        <div className="col-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
-            <p>
+            <p className='p-3'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Quis auctor elit sed vulputate mi sit amet mauris
@@ -47,6 +49,7 @@ function CarouselSlider() {
               egestas c
             </p>
             <p className="quoteMark text-end">"</p>
+            <small className='text-black-50'>John Doe | CEO<br />agency of the year</small>
           </div>
         </div>
       </div>
@@ -54,13 +57,13 @@ function CarouselSlider() {
 
     <div className="container">
       <div className="row">
-        <div className="col-6">
-          <img src="#" width={354} height={354} />
+        <div className="col-5">
+          <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-6 d-flex align-items-center">
+        <div className="col-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
-            <p>
+            <p className='p-3'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Quis auctor elit sed vulputate mi sit amet mauris
@@ -71,6 +74,7 @@ function CarouselSlider() {
               egestas c
             </p>
             <p className="quoteMark text-end">"</p>
+            <small className='text-black-50'>John Doe | CEO<br />agency of the year</small>
           </div>
         </div>
       </div>
