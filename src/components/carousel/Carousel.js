@@ -1,65 +1,82 @@
-import React from "react";
-
-function Carousel() {
+import React from 'react'
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+function CarouselSlider() {
   return (
-    <div
-      id="carouselExampleIndicators"
-      className="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div className="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          className="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src="..." className="d-block w-100" alt="..." />
+    <Carousel>
+    <div className="container mt-5">
+      <div className="row">
+        <div className="col-6">
+          <img src="#" width={354} height={354} />
         </div>
-        <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
-        </div>
-        <div className="carousel-item">
-          <img src="..." className="d-block w-100" alt="..." />
+        <div className="col-6 d-flex align-items-center">
+          <div>
+            <p className="quoteMark text-start">"</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Quis auctor elit sed vulputate mi sit amet mauris
+              commodo. At imperdiet dui accumsan sit amet nulla facilisi
+              morbi. Nibh cras pulvinar mattis nunc sed blandit. Cursus
+              eget nunc scelerisque viverra mauris in aliquam. Id
+              faucibus nisl tincidunt eget nullam. Bibendum neque
+              egestas c
+            </p>
+            <p className="quoteMark text-end">"</p>
+          </div>
         </div>
       </div>
-      <button
-        className="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
-      </button>
-      <button
-        className="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
-      </button>
     </div>
-  );
+
+    <div className="container">
+      <div className="row">
+        <div className="col-6">
+          <img src="#" width={354} height={354} />
+        </div>
+        <div className="col-6 d-flex align-items-center">
+          <div>
+            <p className="quoteMark text-start">"</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Quis auctor elit sed vulputate mi sit amet mauris
+              commodo. At imperdiet dui accumsan sit amet nulla facilisi
+              morbi. Nibh cras pulvinar mattis nunc sed blandit. Cursus
+              eget nunc scelerisque viverra mauris in aliquam. Id
+              faucibus nisl tincidunt eget nullam. Bibendum neque
+              egestas c
+            </p>
+            <p className="quoteMark text-end">"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div className="container">
+      <div className="row">
+        <div className="col-6">
+          <img src="#" width={354} height={354} />
+        </div>
+        <div className="col-6 d-flex align-items-center">
+          <div>
+            <p className="quoteMark text-start">"</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Quis auctor elit sed vulputate mi sit amet mauris
+              commodo. At imperdiet dui accumsan sit amet nulla facilisi
+              morbi. Nibh cras pulvinar mattis nunc sed blandit. Cursus
+              eget nunc scelerisque viverra mauris in aliquam. Id
+              faucibus nisl tincidunt eget nullam. Bibendum neque
+              egestas c
+            </p>
+            <p className="quoteMark text-end">"</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </Carousel>
+  )
 }
 
-export default Carousel;
+export default CarouselSlider
