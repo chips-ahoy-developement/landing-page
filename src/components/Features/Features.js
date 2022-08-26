@@ -8,7 +8,7 @@ const Features = () => {
     <div className="row mb-5 mt-5 py-5">
       <div className={`col-sm-12 col-md-12 text-start mb-5 px-4 ${styles.promisingSubheading}`} >
       
-        <h2>A UI /UX Design and Web Development Studio<span className={styles.eyebrow}></span></h2>
+        <h2>A UI/UX Design and Web Development Studio<span className={styles.eyebrow}></span></h2>
         
         <p>
           supporting copy lorem Ipsum, Lorem ipsum dolor sit amet, consectetur

@@ -32,7 +32,7 @@ function App() {
 
       <div className="container pb-5 ">
         <div className="row">
-          <div className="colsm-12 col-md-6 mt-5 mb-5 d-flex flex-column justify-content-center">
+          <div className="col-sm-12 col-md-6 mt-5 mb-5 p-3 d-flex flex-column justify-content-center">
             
             <div><img src={icon} width={263} height={263} alt="" />
             &nbsp;<span>CENTER POINT</span></div>
@@ -43,7 +43,7 @@ function App() {
             </p>
           </div>
 
-          <div className="col-sm-12 col-md-6 bg-dark mt-5 mb-5">
+          <div className="col-sm-12 col-md-6 mt-5 mb-5 shadow-lg bg-dark">
             <Form></Form>
           </div>
         </div>
