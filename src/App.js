@@ -88,7 +88,7 @@ function App() {
 
       <div className="container">
         <div className="row">
-        <div className="col-6 mt-5 mb-5"><img src={icon} width={263} height={263}/>&nbsp;<span>CENTER POINT</span>
+        <div className="col-6 mt-5 mb-5"><img src={icon} width={263} height={263} alt=""/>&nbsp;<span>CENTER POINT</span>
         <h3 className="mt-5 text-start">Promising subheading</h3>
         <p className="text-start">At rerum harum cum minima error eos voluptates dignissimos non
                 ipsam voluptas aut asperiores repellat ut nihil amet.</p></div>
