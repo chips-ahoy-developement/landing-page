@@ -22,7 +22,7 @@ function App() {
           </div>
         </Jumbotron>
         <div className="row mb-5">
-          <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 promising-subheading">
+          <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 px-4 promising-subheading">
             <h2>A Design and Development Agency</h2>
             <p>
               supporting copy lorem Ipsum, Lorem ipsum dolor sit amet,
