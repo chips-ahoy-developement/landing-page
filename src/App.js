@@ -33,7 +33,7 @@ function App() {
 
           <div className="col-sm-12 col-md-4 mt-3 mb-5">
             <p className="subheader">
-              DIGITAL MARKETING <span className="underline mt-3 mb-3"></span>
+              Digital Marketing <span className="underline mt-3 mb-3"></span>
             </p>
 
             <ul>
@@ -49,7 +49,7 @@ function App() {
           </div>
           <div className="col-sm-12 col-md-4 mt-3 ">
             <p className="subheader">
-              DESIGN / UI / UX <span className="underline mt-3 mb-3"></span>
+              Design / UI / UX <span className="underline mt-3 mb-3"></span>
             </p>
 
             <ul>
@@ -65,7 +65,7 @@ function App() {
           </div>
           <div className="col-sm-12 col-md-4 mt-3 ">
             <p className="subheader">
-              ENGINEERING <span className="underline mt-3 mb-3"></span>
+              Web Engineering <span className="underline mt-3 mb-3"></span>
             </p>
 
             <ul>
