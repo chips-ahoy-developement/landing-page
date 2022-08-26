@@ -15,14 +15,12 @@ function App() {
               We are here
               <br /> to help
             </h1>
-            <p className="text-start">lorem ipsum</p>
+            {/* <p className="text-start">lorem ipsum</p> */}
           </div>
           <div className="col">
             <img src="#" alt="" />
           </div>
-        </Jumbotron>
-        <div className="row mb-5 mt-5">
-          <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 px-4 promising-subheading">
+          <div className="col-sm-12 col-md-6 text-start mb-5 promising-subheading">
             <h2>A Design and Development Agency</h2>
             <p>
               supporting copy lorem Ipsum, Lorem ipsum dolor sit amet,
@@ -30,6 +28,16 @@ function App() {
               labore et dolore magna aliqua.{" "}
             </p>
           </div>
+        </Jumbotron>
+        <div className="row mb-5 mt-5">
+          {/* <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 px-4 promising-subheading">
+            <h2>A Design and Development Agency</h2>
+            <p>
+              supporting copy lorem Ipsum, Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua.{" "}
+            </p>
+          </div> */}
 
           <div className="col-sm-12 col-md-4 mt-3 mb-5">
             <p className="subheader">

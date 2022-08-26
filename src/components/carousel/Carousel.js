@@ -49,7 +49,7 @@ function CarouselSlider() {
               faucibus nisl tincidunt eget nullam. Bibendum neque
               egestas
             </p>
-            <p className="quoteMark text-end">"</p>
+            <p className="quoteMark text-end mt-5">"</p>
             <p className='text-start'><small className='text-black-50'>John Doe | CEO<br />agency of the year</small></p>
           </div>
         </div>
@@ -74,7 +74,7 @@ function CarouselSlider() {
               faucibus nisl tincidunt eget nullam. Bibendum neque
               egestas
             </p>
-            <p className="quoteMark text-end">"</p>
+            <p className="quoteMark text-end mt-5">"</p>
             <p className='text-start'><small className='text-black-50'>John Doe | CEO<br />agency of the year</small></p>
           </div>
         </div>
