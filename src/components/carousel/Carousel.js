@@ -11,7 +11,7 @@ function CarouselSlider() {
         <div className="col-sm-12 col-md-4 mb-5">
           <img src={smile}  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-sm-12 col-md-7 offset-lg-1 d-flex align-items-center">
+        <div className="col-sm-12 col-md-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
             <p className='p-3 text-start'>
@@ -36,7 +36,7 @@ function CarouselSlider() {
         <div className="col-sm-12 col-md-4 mb-5">
         <img src={smile}  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-sm-12 col-md-7 offset-lg-1 d-flex align-items-center">
+        <div className="col-sm-12 col-md-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
             <p className='p-3 text-start'>
@@ -61,7 +61,7 @@ function CarouselSlider() {
         <div className="col-sm-12 col-md-4 mb-5">
         <img src={smile}  alt="" className='rounded-circle'/>
         </div>
-        <div className="col-sm-12 col-md-7 offset-lg-1 d-flex align-items-center">
+        <div className="col-sm-12 col-md-7 d-flex align-items-center">
           <div>
             <p className="quoteMark text-start">"</p>
             <p className='p-3 text-start'>
