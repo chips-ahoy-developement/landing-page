@@ -9,7 +9,7 @@ function CarouselSlider() {
     <div className="container mt-5  p-lg-5 ">
       <div className="row">
         <div className="col-sm-12 col-md-4 mb-5">
-          <img src={smile}  alt="" className='rounded-circle' width={350} height={350}/>
+          <img src={smile}  alt="" className='rounded-circle'/>
         </div>
         <div className="col-sm-12 col-md-7 offset-lg-1 d-flex align-items-center">
           <div>
@@ -34,7 +34,7 @@ function CarouselSlider() {
     <div className="container mt-5  p-lg-5 ">
       <div className="row">
         <div className="col-sm-12 col-md-4 mb-5">
-          <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
+        <img src={smile}  alt="" className='rounded-circle'/>
         </div>
         <div className="col-sm-12 col-md-7 offset-lg-1 d-flex align-items-center">
           <div>
@@ -59,7 +59,7 @@ function CarouselSlider() {
     <div className="container mt-5  p-lg-5">
       <div className="row">
         <div className="col-sm-12 col-md-4 mb-5">
-          <img src="https://via.placeholder.com/150"  alt="" className='rounded-circle'/>
+        <img src={smile}  alt="" className='rounded-circle'/>
         </div>
         <div className="col-sm-12 col-md-7 offset-lg-1 d-flex align-items-center">
           <div>
