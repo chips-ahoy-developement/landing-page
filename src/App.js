@@ -12,11 +12,12 @@ function App() {
       <div className="container">
         <Jumbotron>
           <div className="col">
+          <p className="text-start mb-0">lorem ipsum some copy here</p>
             <h1 className="text-start">
               We are here
               <br /> to help
             </h1>
-            <p className="text-start">lorem ipsum some copy here</p>
+            
           </div>
           <div className="col">
             <img src="#" alt="" />

@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./features.module.scss"
 import marketingIcon from "../../assets/icon_marketing.svg"
 import designIcon from "../../assets/icon_design.svg"
 import engineIcon from "../../assets/icon_engineering.svg"
@@ -6,7 +7,7 @@ const Features = () => {
   return (
     <div className="row mb-5 mt-5 py-5">
       <div className="col-sm-12 col-md-12 text-start mb-5 px-4 promising-subheading">
-      <span className="eyebrow mt-3 mb-3"></span>
+      <span className={styles.eyebrow}></span>
         <h2>UI /UX Design and Web Development Agency</h2>
         <p>
           supporting copy lorem Ipsum, Lorem ipsum dolor sit amet, consectetur
@@ -50,7 +51,7 @@ const Features = () => {
         </ul>
       </div>
       <div className="col-sm-12 col-md-4 mt-3 ">
-      <img src={engineIcon} width={50} className="mb-3"/>
+      <img src={engineIcon} width={50} className="mb-3" alt=""/>
         <p className="subheader">
           Web Development <span className="underline mt-3 mb-3"></span>
         </p>
