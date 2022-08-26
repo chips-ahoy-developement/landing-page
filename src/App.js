@@ -4,6 +4,7 @@ import Jumbotron from "./components/jumbotron/Jumbotron";
 import Navigation from "./components/navigation/Navigation";
 import icon from "./assets/icon.svg";
 import CarouselSlider from "./components/carousel/Carousel";
+import Features from "./components/Features/Features";
 function App() {
   return (
     <div className="App">
@@ -22,65 +23,7 @@ function App() {
           </div>
          
         </Jumbotron>
-        <div className="row mb-5 mt-5">
-          <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 px-4 promising-subheading">
-            <h2>A Design and Development Agency</h2>
-            <p>
-              supporting copy lorem Ipsum, Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua.{" "}
-            </p>
-          </div>
-
-          <div className="col-sm-12 col-md-4 mt-3 mb-5">
-            <p className="subheader">
-              Digital Marketing <span className="underline mt-3 mb-3"></span>
-            </p>
-
-            <ul>
-              <li>
-                At rerum harum cum minima error eos voluptates dignissimos non
-                ipsam voluptas aut asperiores repellat ut nihil amet.
-              </li>
-              <li>
-                At rerum harum cum minima error eos voluptates dignissimos non
-                ipsam voluptas aut asperiores repellat ut nihil amet.
-              </li>
-            </ul>
-          </div>
-          <div className="col-sm-12 col-md-4 mt-3 ">
-            <p className="subheader">
-              Design / UI / UX <span className="underline mt-3 mb-3"></span>
-            </p>
-
-            <ul>
-              <li>
-                At rerum harum cum minima error eos voluptates dignissimos non
-                ipsam voluptas aut asperiores repellat ut nihil amet.
-              </li>
-              <li>
-                At rerum harum cum minima error eos voluptates dignissimos non
-                ipsam voluptas aut asperiores repellat ut nihil amet.
-              </li>
-            </ul>
-          </div>
-          <div className="col-sm-12 col-md-4 mt-3 ">
-            <p className="subheader">
-              Web Engineering <span className="underline mt-3 mb-3"></span>
-            </p>
-
-            <ul>
-              <li>
-                At rerum harum cum minima error eos voluptates dignissimos non
-                ipsam voluptas aut asperiores repellat ut nihil amet.
-              </li>
-              <li>
-                At rerum harum cum minima error eos voluptates dignissimos non
-                ipsam voluptas aut asperiores repellat ut nihil amet.
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Features />
       </div>
       <div className="container-fluid bg-light">
         <CarouselSlider></CarouselSlider>
