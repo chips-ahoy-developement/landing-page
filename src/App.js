@@ -5,22 +5,27 @@ import Navigation from "./components/navigation/Navigation";
 import icon from "./assets/icon.svg";
 import CarouselSlider from "./components/carousel/Carousel";
 import Features from "./components/Features/Features";
+import appBanner from "./assets/banner_app.png"
+import macBanner from "./assets/banner_mac.png"
 function App() {
   return (
     <div className="App">
       <Navigation></Navigation>
       <div className="container">
         <Jumbotron>
-          <div className="col">
-          <p className="text-start mb-0">lorem ipsum some copy here</p>
+          <div className="col-md-5 d-flex align-items-center">
+          <div>
             <h1 className="text-start">
               We are here
               <br /> to help
             </h1>
-            
+            <p className="text-start mb-0">lorem ipsum some copy here</p>  
+            </div>
           </div>
-          <div className="col">
-            <img src="#" alt="" />
+          <div className="col-md-6">
+          <img src={macBanner} alt="" width={400} className="img-fluid"/>
+            <img src={appBanner} alt="" width={150} className="img-fluid"/>
+            
           </div>
          
         </Jumbotron>
@@ -51,9 +56,12 @@ function App() {
       <nav className="navbar  navbar-light bg-light mt-5">
         <div className="container">
           <a className="navbar-brand" href="/">
-            Footer
+            &copy; Center Point Studio - Chicago IL
           </a>
         </div>
+        <div className='d-flex'>
+        <img src={icon} alt="" width="30" height="24" className="d-inline-block align-text-top" />CENTER POINT
+    </div>
       </nav>
     </div>
   );

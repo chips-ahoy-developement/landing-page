@@ -21,9 +21,9 @@
 
   .carousel .slide{
     
-    @include bp("large"){
-      height: 600px;
-    }
+    // @include bp("large"){
+    //   height: 600px;
+    // }
       
     img{
       width: 300px;

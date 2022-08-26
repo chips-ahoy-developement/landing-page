@@ -7,8 +7,8 @@ function CarouselSlider() {
   return (
     <Carousel className='carousel-wrapper mb-5' showArrows={false}>
     <div className="container mt-5">
-      <div className="row">
-        <div className="col-sm-12 col-md-4 mb-5">
+      <div className="row pt-5">
+        <div className="col-sm-12 col-md-5 mb-5">
           <img src={smile}  alt="" className='rounded-circle shadow-lg'/>
         </div>
         <div className="col-sm-12 col-md-7 d-flex align-items-center">
