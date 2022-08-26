@@ -21,7 +21,7 @@ function App() {
             <img src="#" alt="" />
           </div>
         </Jumbotron>
-        <div className="row mb-5">
+        <div className="row mb-5 mt-5">
           <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 px-4 promising-subheading">
             <h2>A Design and Development Agency</h2>
             <p>
@@ -86,7 +86,7 @@ function App() {
         <CarouselSlider></CarouselSlider>
       </div>
 
-      <div className="container">
+      <div className="container pb-5">
         <div className="row">
         <div className="col-6 mt-5 mb-5"><img src={icon} width={263} height={263} alt=""/>&nbsp;<span>CENTER POINT</span>
         <h3 className="mt-5 text-start">Promising subheading</h3>
@@ -96,6 +96,11 @@ function App() {
         <div className="col-6 bg-dark mt-5 mb-5"><Form></Form></div>
         </div>
       </div>
+      <nav className="navbar  navbar-light bg-light mt-5">
+  <div className="container">
+    <a className="navbar-brand" href="/">Footer</a>
+  </div>
+</nav>
     </div>
   );
 }
