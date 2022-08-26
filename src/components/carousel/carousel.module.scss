@@ -1,10 +1,33 @@
-.carousel .control-dots .dot {
-    
-    background: rgb(250, 15, 15);
-}
+@import "../../scss//mixins//breakpoints.scss";
 
-.row {
-    :global(.carousel .control-dots .dot) {
-            background-color: blue;
-          }
-        }
+.carousel-wrapper{
+.quoteMark{
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 0;
+  margin: 0;
+  }
+
+  .carousel .control-dots .dot{
+    box-shadow: none;
+    background: black;
+    width: 15px;
+    height: 15px;
+  }
+
+  .carousel-status{
+    display: none;
+  }
+
+  .carousel .slide{
+    
+    @include bp("large"){
+      height: 600px;
+    }
+      
+    
+  }
+  p{
+    font-size: 18px;
+  }
+}

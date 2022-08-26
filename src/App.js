@@ -23,7 +23,7 @@ function App() {
         </Jumbotron>
         <div className="row mb-5">
           <div className="col-sm-12 col-md-9 text-start mt-5 mb-5 promising-subheading">
-            <h2>Promising Subheading</h2>
+            <h2>A Design and Development Agency</h2>
             <p>
               supporting copy lorem Ipsum, Lorem ipsum dolor sit amet,
               consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -80,10 +80,11 @@ function App() {
             </ul>
           </div>
         </div>
-        <div className="row">
+        
+      </div>
+      <div className="container-fluid bg-light">
         <CarouselSlider></CarouselSlider>
         </div>
-      </div>
     </div>
   );
 }
