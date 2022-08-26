@@ -51,7 +51,7 @@ const Form = () => {
           I agree to terms
         </label>
       </div>
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" className="btn btn-outline-light">
         Submit
       </button>
     </form>

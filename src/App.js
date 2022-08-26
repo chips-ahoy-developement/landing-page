@@ -1,8 +1,8 @@
 import "./App.scss";
-// import Form from "./components/form/Form";
+import Form from "./components/form/Form";
 import Jumbotron from "./components/jumbotron/Jumbotron";
 import Navigation from "./components/navigation/Navigation";
-
+import icon from "./assets/icon.svg"
 import CarouselSlider from "./components/carousel/Carousel";
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
             </p>
           </div>
 
-          <div className="col-sm-12 col-md-4 mt-5 mb-5">
+          <div className="col-sm-12 col-md-4 mt-3 mb-5">
             <p className="subheader">
               DIGITAL MARKETING <span className="underline mt-3 mb-3"></span>
             </p>
@@ -47,7 +47,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col-sm-12 col-md-4 mt-5 ">
+          <div className="col-sm-12 col-md-4 mt-3 ">
             <p className="subheader">
               DESIGN / UI / UX <span className="underline mt-3 mb-3"></span>
             </p>
@@ -63,7 +63,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col-sm-12 col-md-4 mt-5 ">
+          <div className="col-sm-12 col-md-4 mt-3 ">
             <p className="subheader">
               ENGINEERING <span className="underline mt-3 mb-3"></span>
             </p>
@@ -84,7 +84,18 @@ function App() {
       </div>
       <div className="container-fluid bg-light">
         <CarouselSlider></CarouselSlider>
+      </div>
+
+      <div className="container">
+        <div className="row">
+        <div className="col-6 mt-5 mb-5"><img src={icon} width={263} height={263}/>&nbsp;<span>CENTER POINT</span>
+        <h3 className="mt-5 text-start">Promising subheading</h3>
+        <p className="text-start">At rerum harum cum minima error eos voluptates dignissimos non
+                ipsam voluptas aut asperiores repellat ut nihil amet.</p></div>
+       
+        <div className="col-6 bg-dark mt-5 mb-5"><Form></Form></div>
         </div>
+      </div>
     </div>
   );
 }
