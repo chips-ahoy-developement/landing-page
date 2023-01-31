@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
+import './navigation.module.css';
 import icon from "../../assets/icon.svg"
 
 const Navigation = () => {
@@ -12,7 +13,7 @@ const Navigation = () => {
         CENTER POINT
     </a>
     <div className='d-flex'>
-    <button type="button" className="btn btn-outline-dark">Get the Offer</button>
+    <button type="button" className="btn btn-outline-dark rounded-pill">Get the Offer</button>
     </div>
     </div>
   </nav>

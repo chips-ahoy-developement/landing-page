@@ -2,40 +2,41 @@ import React from "react";
 
 const Form = () => {
   return (
-    <form className="p-5">
-    <h3 className="text-light text-start">Get 30% discount </h3>
-    <p className="text-light text-start mb-5">for first time customers who provide contact info blurb, sign up for our mailing list to get offer lorem ipsum</p>
-    <div className="mb-5">
-        <label for="name" className="form-label  text-light text-start" style={{width:"100%"}}>
+    <div className="col-sm-12 col-md-6 mt-5 mb-5 shadow-lg bg-dark rounded-4">
+    <form className="p-5  ">
+    <p className="text-light text-start mb-5">Join our mailing list and receive a 30% discount as a new subscriber. Stay updated on our latest projects and be the first to take advantage of exclusive offers.</p>
+   
+    <div className="mb-4 input-group">
+        <label htmlFor="name" className="form-label  text-light text-start" style={{width:"100%"}}>
          <p className="mb-0"> Name</p>
         </label>
         <input
           type="name"
-          className="form-control"
+          className="form-control rounded-pill"
           id="name"
           aria-describedby="name"
         />
         
       </div>
-      <div className="mb-5">
-        <label for="exampleInputEmail1" className="form-label  text-light text-start" style={{width:"100%"}}>
+      <div className="mb-4 input-group">
+        <label htmlFor="exampleInputEmail1" className="form-label  text-light text-start" style={{width:"100%"}}>
           <p className="mb-0">Email</p>
         </label>
         <input
           type="email"
-          className="form-control"
+          className="form-control rounded-pill"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
         />
        
       </div>
-      <div className="mb-5">
-        <label for="exampleInputPassword1" className="form-label  text-light text-start" style={{width:"100%"}}>
+      <div className="mb-4 input-group">
+        <label htmlFor="exampleInputPassword1" className="form-label  text-light text-start" style={{width:"100%"}}>
           <p className="mb-0">Phone Number (optional)</p>
         </label>
         <input
           type="password"
-          className="form-control"
+          className="form-control rounded-pill"
           id="exampleInputPassword1"
         />
       </div>
@@ -44,6 +45,7 @@ const Form = () => {
         Submit
       </button>
     </form>
+    </div>
   );
 };
 

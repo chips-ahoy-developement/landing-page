@@ -7,68 +7,13 @@ const Features = () => {
   return (
     <div className="row mb-5 mt-5 py-5">
       <div className={`col-sm-12 col-md-12 text-start mb-5 px-4 ${styles.promisingSubheading}`} >
-      
-        <h2>A UI/UX Design and Web Development Studio<span className={styles.eyebrow}></span></h2>
+
         
         <p>
-          supporting copy lorem Ipsum, Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.{" "}
+        Revolutionize your online presence with Center Point. Our team of expert developers specializes in creating innovative web applications that drive business success. Utilizing the latest technologies, we craft custom solutions that meet your unique needs and exceed your expectations. From concept to launch, we're with you every step of the way, delivering exceptional customer service and unparalleled results. Whether you're looking to streamline your internal processes, engage with customers in new ways, or simply bring your vision to life, Center Point is here to help. Contact us today to learn more about how we can transform your online presence.
         </p>
         
-      </div>
-
-      <div className="col-sm-12 col-md-4 mt-3 mb-5">
-        <img src={marketingIcon} alt="" className="mb-3"/>
-        <p className="subheader mb-3">
-          Digital Marketing 
-        </p>
-
-        <ul>
-          <li>
-            At rerum harum cum minima error eos voluptates dignissimos non ipsam
-            voluptas aut asperiores repellat ut nihil amet.
-          </li>
-          <li>
-            At rerum harum cum minima error eos voluptates dignissimos non ipsam
-            voluptas aut asperiores repellat ut nihil amet.
-          </li>
-        </ul>
-      </div>
-      <div className="col-sm-12 col-md-4 mt-3 ">
-      <img src={designIcon} className="mb-3" width={50} alt=""/>
-        <p className="subheader mb-3">
-          Design / UI / UX 
-        </p>
-
-        <ul>
-          <li>
-            At rerum harum cum minima error eos voluptates dignissimos non ipsam
-            voluptas aut asperiores repellat ut nihil amet.
-          </li>
-          <li>
-            At rerum harum cum minima error eos voluptates dignissimos non ipsam
-            voluptas aut asperiores repellat ut nihil amet.
-          </li>
-        </ul>
-      </div>
-      <div className="col-sm-12 col-md-4 mt-3 ">
-      <img src={engineIcon} width={50} className="mb-3" alt=""/>
-        <p className="subheader mb-3">
-          Web Development 
-        </p>
-
-        <ul>
-          <li>
-            At rerum harum cum minima error eos voluptates dignissimos non ipsam
-            voluptas aut asperiores repellat ut nihil amet.
-          </li>
-          <li>
-            At rerum harum cum minima error eos voluptates dignissimos non ipsam
-            voluptas aut asperiores repellat ut nihil amet.
-          </li>
-        </ul>
-      </div>
+      </div> 
     </div>
   );
 };

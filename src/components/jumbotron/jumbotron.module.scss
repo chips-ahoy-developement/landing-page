@@ -1,6 +1,6 @@
 h1{
     font-family: 'Lato', sans-serif !important;
-    font-size: 87px !important;
+    font-size: clamp(1.5rem, 2.5vw, 4rem);  
     font-weight: 800 !important;
 }
 

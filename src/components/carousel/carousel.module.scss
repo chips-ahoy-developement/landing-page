@@ -19,20 +19,11 @@
     display: none;
   }
 
-  .carousel .slide{
-    
-    // @include bp("large"){
-    //   height: 600px;
-    // }
-      
-    img{
-      width: 300px;
-    }
-    
-  }
   p{
     font-size: 18px;
   }
-
+  .carousel .slide img {
+    width: auto;
+  }
 
 }

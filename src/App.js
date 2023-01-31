@@ -13,19 +13,12 @@ function App() {
       <Navigation></Navigation>
       <div className="container">
         <Jumbotron>
-          <div className="col-md-5 d-flex align-items-center">
+          <div className="col-md-12 d-flex align-items-center">
           <div>
             <h1 className="text-start">
-              We are here
-              <br /> to help
+              Empowering your digital vision with cutting-edge solutions.
             </h1>
-            <p className="text-start mb-0">lorem ipsum some copy here</p>  
             </div>
-          </div>
-          <div className="col-md-6">
-          <img src={macBanner} alt="" width={400} className="img-fluid"/>
-            <img src={appBanner} alt="" width={150} className="img-fluid"/>
-            
           </div>
          
         </Jumbotron>
@@ -41,27 +34,25 @@ function App() {
             
             <div><img src={icon} width={263} height={263} alt="" />
             &nbsp;<span>CENTER POINT</span></div>
-            <h3 className="mt-5 text-start">Promising subheading</h3>
-            <p className="text-start">
-              At rerum harum cum minima error eos voluptates dignissimos non
-              ipsam voluptas aut asperiores repellat ut nihil amet.
-            </p>
+            <h3 className="mt-5 text-start">Delivering results beyond your expectations</h3>
+            <p className="text-start">Join the Center Point community and be the first to know about our latest offerings and exclusive deals. Sign up for our mailing list today and receive a special offer just for new subscribers. As a valued member, you'll be the first to hear about our exciting new projects, industry updates, and promotions. And don't worry, we respect your privacy and will never share your information. Give us the chance to show you what sets us apart. Sign up now and experience the Center Point difference for yourself.</p>
           </div>
 
-          <div className="col-sm-12 col-md-6 mt-5 mb-5 shadow-lg bg-dark">
+          
             <Form></Form>
-          </div>
+          
         </div>
       </div>
       <nav className="navbar  navbar-light bg-light mt-5">
-        <div className="container">
+       <div className="container">
           <a className="navbar-brand" href="/">
             &copy; Center Point Studio - Chicago IL
           </a>
-        </div>
+        
         <div className='d-flex'>
-        <img src={icon} alt="" width="30" height="24" className="d-inline-block align-text-top" />CENTER POINT
-    </div>
+        <img src={icon} alt="" width="30" height="24" className="align-text-top" />CENTER POINT
+        </div>
+        </div>
       </nav>
     </div>
   );
