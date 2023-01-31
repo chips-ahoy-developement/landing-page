@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./features.module.scss"
-import marketingIcon from "../../assets/icon_marketing.svg"
-import designIcon from "../../assets/icon_design.svg"
-import engineIcon from "../../assets/icon_engineering.svg"
+
 const Features = () => {
   return (
     <div className="row mb-5 mt-5 py-5">

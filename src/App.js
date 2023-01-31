@@ -5,8 +5,7 @@ import Navigation from "./components/navigation/Navigation";
 import icon from "./assets/icon.svg";
 import CarouselSlider from "./components/carousel/Carousel";
 import Features from "./components/Features/Features";
-import appBanner from "./assets/banner_app.png"
-import macBanner from "./assets/banner_mac.png"
+
 function App() {
   return (
     <div className="App">
